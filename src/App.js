@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from "./components/ui/button"
+import { Card } from './components/ui/card';
 
 function App() {
   return (
@@ -9,6 +11,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button>Click me</Button>
+        <Card>
+          <h1>Card title</h1>
+          <p>Card content</p>
+        </Card>
         <a
           className="App-link"
           href="https://reactjs.org"
